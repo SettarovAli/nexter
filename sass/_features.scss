@@ -5,6 +5,10 @@
   grid-gap: 6rem;
   align-items: start;
   margin: 15rem 0;
+
+  @media only screen and (max-width: $bp-medium) {
+    margin: 7rem 0;
+  }
 }
 
 .feature {
